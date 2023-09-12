@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "fromLocation": "chennai",
+      "toLocation": "pondy",
+      "passengers": 4,
+      "id": 1
+    },
+    {
+      "fromLocation": "chennai",
+      "toLocation": "pondy",
+      "passengers": 3,
+      "id": 4
+    },
+    {
+      "fromLocation": "Bangalore",
+      "toLocation": "Kolkata",
+      "passengers": 1,
+      "id": 5
+    },
+    {
+      "fromLocation": "mumbai",
+      "toLocation": "dubai",
+      "passengers": 2,
+      "id": 6
+    },
+    {
+      "fromLocation": "Cuddalore",
+      "toLocation": "Pondicherry",
+      "passengers": 3,
+      "id": 7
+    },
+    {
+      "fromLocation": "chennai",
+      "toLocation": "delhi",
+      "passengers": 1,
+      "id": 8
+    },
+    {
+      "fromLocation": "Pondy",
+      "toLocation": "Tirupati",
+      "passengers": 5,
+      "id": 9
+    },
+    {
+      "fromLocation": "Salem",
+      "toLocation": "Pondy",
+      "passengers": 3,
+      "id": 10
+    },
+    {
+      "fromLocation": "Villupuram",
+      "toLocation": "Cuddalore",
+      "passengers": 3,
+      "id": 11
+    },
+    {
+      "fromLocation": "Pondicherry",
+      "toLocation": "France",
+      "passengers": 3,
+      "id": 12
+    },
+    {
+      "fromLocation": "Pondicherry",
+      "toLocation": "Shimla",
+      "passengers": 3,
+      "id": 13
+    }
+  ]
+}

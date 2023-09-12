@@ -1,0 +1,23 @@
+<h2 class="d-flex justify-content-center py-4 bg-primary text-white">Passengers boarding list</h2>
+<div class="container mt-5">
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+                <tr style="text-align:center">
+                    <th>S.No</th>
+                    <th>Departure Location</th>
+                    <th>Arrival Location</th>
+                    <th>No of Passengers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of overAllData" style="text-align:center">
+                    <td>{{item.id}}</td>
+                    <td>{{item.fromLocation}}</td>
+                    <td>{{item.toLocation}}</td>
+                    <td>{{item.passengers}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

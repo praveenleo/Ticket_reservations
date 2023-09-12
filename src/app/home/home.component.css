@@ -1,0 +1,122 @@
+.nav-bar {
+    height: 75px;
+}
+
+.text {
+    font-weight: bold;
+    color:black;
+}
+
+.header {
+    background-color: whitesmoke;
+}
+
+.circle-icon {
+    width: 29px;
+    height: 27px;
+    border-radius: 25%;
+    background-color: white;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.border-line {
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.05);
+    width: 120%;
+    height: 60px;
+    padding-top: 14px;
+}
+
+.dialog-box {
+    width: 10%
+}
+
+.custom-popover {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.ml-16 {
+    margin-left: 2px;
+}
+
+.pl-3 {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.btn-done {
+    width: 195px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #0B65EB;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.h-54 {
+    height: 54px;
+}
+
+.overflow-menu {
+    position: absolute;
+    z-index: 99999999;
+    left: 20px;
+    top: 227px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+    .overflow-menu {
+        position: absolute;
+        z-index: 99999999;
+        left: 661px;
+        top: 166px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .overflow-menu {
+        position: absolute;
+        z-index: 99999999;
+        left: 267px;
+        top: 221px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .overflow-menu {
+        position: absolute;
+        z-index: 99999999;
+        left: -17px;
+        top: 233px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+}
