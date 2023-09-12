@@ -36,31 +36,31 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onClickMinus() {
+  onClickMinus():void {
     if (this.indexIncrement > 0) {
       this.indexIncrement--;
       this.decrementTotalPassengers();
     }
   }
 
-  onClickPlus() {
+  onClickPlus():void {
     this.indexIncrement++;
     this.updateTotalPassengers();
   }
 
-  onClickRightMinus() {
+  onClickRightMinus():void {
     if (this.indexIncrements > 0) {
       this.indexIncrements--;
       this.decrementTotalPassengers();
     }
   }
 
-  onClickLeftPlus() {
+  onClickLeftPlus():void{
     this.indexIncrements++;
     this.updateTotalPassengers();
   }
 
-  submit() {
+  submit():void{
     const fromLocation = this.userForm.value.toLocation;
     const toLocation = this.userForm.value.fromLocation;
 
@@ -80,7 +80,7 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  onClick() {
+  onClick() :void{
     const payload = {
       fromLocation: this.userForm.value.fromLocation,
       toLocation: this.userForm.value.toLocation,
